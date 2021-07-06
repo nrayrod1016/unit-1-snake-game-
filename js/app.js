@@ -17,7 +17,7 @@ var snake = {
   cells: [],
 
   // length of the snake. grows when eating an apple
-  maxCells: 4
+  maxCells: 3
 };
 var apple = {
   x: 320,
@@ -35,7 +35,7 @@ function loop() {
   requestAnimationFrame(loop);
 
   // slow game loop to 15 fps instead of 60 (60/15 = 4)
-  if (++count < 4) {
+  if (++count < 7) {
     return;
   }
 
@@ -115,7 +115,7 @@ document.addEventListener('keydown', function(e) {
   // not already moving on the same axis (pressing left while moving
   // left won't do anything, and pressing right while moving left
   // shouldn't let you collide with your own body)
-
+// e.which relatees to the key that has been pressed down 
   // left arrow key
   if (e.which === 37 && snake.dx === 0) {
     snake.dx = -grid;
