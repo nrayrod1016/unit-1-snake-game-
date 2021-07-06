@@ -1,6 +1,7 @@
 // possible threejs cloudflare link 
  
-
+//  limit frame rates to 10 for a retro feel 
+//  some objective tto remember: score, collision, growth, death) 
 
 //  Constant Variables 
 
@@ -19,3 +20,5 @@ const renderer = new THREE.WebGLRenderer({ antalias: true})
 
 
 // questions : If i were to empty the css on my page and link the index.js to provide the 3D styling will that work? 
+
+
