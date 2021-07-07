@@ -1,11 +1,11 @@
 
-var canvas = document.getElementById('game');
-var context = canvas.getContext('2d');
+const canvas = document.getElementById('game');
+const context = canvas.getContext('2d');
 
-var grid = 16;
-var count = 0;
+const grid = 16;
+const count = 0;
 
-var snake = {
+let snake = {
   x: 160,
   y: 160,
 
@@ -19,7 +19,7 @@ var snake = {
   // length of the snake. grows when eating an apple
   maxCells: 3
 };
-var apple = {
+let apple = {
   x: 320,
   y: 320
 };

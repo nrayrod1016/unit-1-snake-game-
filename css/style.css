@@ -17,8 +17,12 @@ html, body {
   }
   
   button { 
-  position: absolute; 
-  right: 0;
+  display: flex;
+  justify-content: space-between;  
+ position: relative; 
+  align-items: baseline;
+  /* position: relative; */
+  
   
   }
   
