@@ -140,4 +140,4 @@ document.addEventListener('keydown', function(e) {
 
 // start the game
 requestAnimationFrame(loop);
-  
+    /*  add sounds event listeners  */
