@@ -6,7 +6,8 @@ html, body {
   }
   
   body { 
-    background: black; 
+   background-color: #000000;
+    background-image: linear-gradient(110deg, #000000 0%, #2c3e50 74%); 
     display: flex;
     align-items: center; 
     justify-content: center; 
@@ -15,7 +16,11 @@ html, body {
   canvas { 
   border: 5px solid ;
   }
-  
+  h1 { 
+    color: white; 
+    box-shadow: 
+  }
+
  #startBtn, #resetBtn{ 
   display: flex;
   justify-content: space-between;  
@@ -26,7 +31,7 @@ html, body {
   font-size: 20px;
   margin: 5px 5px 5px 5px; 
   padding: 10px 15px;
-  border: 5px dotted white; 
+  border: 5px thick double white; 
   /* position: relative; */
   
   

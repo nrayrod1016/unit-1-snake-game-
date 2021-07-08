@@ -73,7 +73,7 @@ function loop() {
   }
 
   // draw apple
-  context.fillStyle = 'red';
+  context.fillStyle = 'white';
   context.fillRect(apple.x, apple.y, grid-1, grid-1);
 
   // draw snake one cell at a time
@@ -93,7 +93,7 @@ function loop() {
     }
 
     // check collision with all cells after this one (modified bubble sort)
-    for (var i = index + 1; i < snake.cells.length; i++) {
+    for (let i = index + 1; i < snake.cells.length; i++) {
 
       // snake occupies same space as a body part. reset game
       if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
@@ -117,7 +117,7 @@ document.addEventListener('keydown', function(e) {
   // not already moving on the same axis (pressing left while moving
   // left won't do anything, and pressing right while moving left
   // shouldn't let you collide with your own body)
-// e.which relatees to the key that has been pressed down 
+// e.which relates to the key that has been pressed down 
   // left arrow key
   if (e.which === 37 && snake.dx === 0) {
     snake.dx = -grid;
@@ -141,6 +141,14 @@ document.addEventListener('keydown', function(e) {
 });
 
 // start the game
+startBtn.onclick = function() {
+  
 
 requestAnimationFrame(loop);
+}
+
+resetBtn.onclick = function() { 
+  reset 
+
+}
     /*  add sounds event listeners  */
