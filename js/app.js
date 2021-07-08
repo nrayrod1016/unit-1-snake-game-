@@ -24,7 +24,7 @@ let apple = {
 };
 
 
-
+https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
