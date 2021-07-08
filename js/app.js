@@ -1,9 +1,11 @@
 
 const canvas = document.getElementById('game');
 const context = canvas.getContext('2d');
+const start = document.getElementById(startBtn)
+const reset = document.getElementById(resetBtn)
 
 const grid = 16;
-const count = 0;
+let count = 0;
 
 let snake = {
   x: 160,
@@ -35,7 +37,7 @@ function loop() {
   requestAnimationFrame(loop);
 
   // slow game loop to 15 fps instead of 60 (60/15 = 4)
-  if (++count < 7) {
+  if (++count < 4) {
     return;
   }
 
@@ -139,5 +141,6 @@ document.addEventListener('keydown', function(e) {
 });
 
 // start the game
+
 requestAnimationFrame(loop);
     /*  add sounds event listeners  */

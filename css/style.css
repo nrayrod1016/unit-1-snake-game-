@@ -13,14 +13,20 @@ html, body {
   }
   
   canvas { 
-  border: 1px solid white;
+  border: 5px solid ;
   }
   
-  button { 
+ #startBtn, #resetBtn{ 
   display: flex;
   justify-content: space-between;  
- position: relative; 
+  position: relative; 
   align-items: baseline;
+  background-color: black;
+  color: white; 
+  font-size: 20px;
+  margin: 5px 5px 5px 5px; 
+  padding: 10px 15px;
+  border: 5px dotted white; 
   /* position: relative; */
   
   
