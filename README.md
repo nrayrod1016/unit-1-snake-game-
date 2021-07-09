@@ -39,7 +39,7 @@ https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame
 
 
 Logic for Canvas Grid mapping 
-
+https://www.youtube.com/watch?v=yq2au9EfeRQ - tutorial series 
 https://xon5.medium.com/flexible-canvas-grid-without-blurred-lines-907fcadf5bfc
 https://www.w3schools.com/html/html5_canvas.asp 
 https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
