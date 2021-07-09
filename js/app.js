@@ -24,7 +24,7 @@ let apple = {
 };
 
 
-https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
+
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
@@ -50,7 +50,7 @@ function loop() {
     snake.x = 0;
   }
 
-
+    
 
   // wrap snake position vertically 
   if (snake.y < 0) {
@@ -106,7 +106,6 @@ function loop() {
     }
   });
 }
-
 // <-----------------------------------Event Listeners-------------------------------------------------->
 
 // listen to keyboard events to move the snake
