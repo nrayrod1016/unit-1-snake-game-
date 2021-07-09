@@ -1,8 +1,12 @@
 Game: Snake! 
 https://snake-gamee.surge.sh/
 
+
 Instructions : 
 - Grab as many apples as you can! Avoid your body at all costs!
+
+What I learned? 
+CANVAS.JS !!!!!! I was only able to scratch the surface of what you can do with canvas. My original plan was to use canvas to render a 3D 
 
 Wireframe: 
 <img src="imgs/snakeGameWireFrame.png"> 
