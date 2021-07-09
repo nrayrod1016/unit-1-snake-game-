@@ -1,8 +1,13 @@
 Game: Snake! 
 https://snake-gamee.surge.sh/
 
+
 Instructions : 
 - Grab as many apples as you can! Avoid your body at all costs!
+
+What I learned? 
+CANVAS.JS and Scalable Vectoral Graphics (SVG)!!!!!! I was only able to scratch the surface of what you can do with canvas. My original plan was to use canvas to render a 3D, however that proved too difficult. I look forward to contiuning my research on 3D rendering. 
+
 Wireframe: 
 <img src="imgs/snakeGameWireFrame.png"> 
 
