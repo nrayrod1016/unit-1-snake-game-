@@ -3,6 +3,7 @@ https://snake-gamee.surge.sh/
 
 Instructions : 
 - Grab as many apples as you can! Avoid your body at all costs!
+
 Wireframe: 
 <img src="imgs/snakeGameWireFrame.png"> 
 
