@@ -45,5 +45,5 @@ https://developer.mozilla.org/en-US/docs/Web/SVG
 https://www.w3schools.com/html/html5_svg.asp
 
 
-- Draw rect using SVG element rect 
-- https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect
+using SVG element rect 
+ https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect
