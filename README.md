@@ -8,7 +8,7 @@ Wireframe:
 
 
 ScreenShot: 
-<img src="snake-game/imgs/snakeGameShot.png"> 
+<img src="imgs/snakeGameShot.png"> 
 
 
 Tech Used: 
