@@ -4,7 +4,7 @@ Instructions :
 - Grab as many apples as you can! Avoid your body at all costs!
 
 
-<img src="snakeGameShot.png"> 
+<img src="imgs/snakeGameShot.png"> 
 
 HTML CSS JS HTML.Canvas(Canvas.js) 
 
